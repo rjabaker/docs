@@ -1,0 +1,13 @@
+# Technical Design Document #
+
+## Table of Contents
+
+
+
+## 1 Introduction ##
+
+The purpose of this report is to outline the design of a cybernetic hand or appendage that can respond to real-world, or analog, stimuli. As a general design, the cybernetic appendage will replicate or respond to hand motions registered by a recording device, an analog-to-digital converter.
+
+The appendage will include three phases, dubbed the "Eye," the "Control" and the "Hand." The "Eye" will act as the recording device, registering stimuli, such as hand motions, and feeding them to the "Control." The "Control" will interpret these analog signals, converting them into signals that the "Hand" can understand. Finally, the "Hand" will respond to these signals, based on the "Control's" interpretation algorithms.
+
+As a preliminary design objective, the "Eye" should involve the Microsoft Kinect motion sensing input device.
