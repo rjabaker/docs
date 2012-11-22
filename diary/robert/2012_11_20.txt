@@ -7,3 +7,5 @@
 -> Beginning research into motors. Might need to build a circuit so that the arduino can control motors with larger current/voltage requirements.
 
 -> Look into [http://itp.nyu.edu/physcomp/Labs/DCMotorControl](http://itp.nyu.edu/physcomp/Labs/DCMotorControl)
+
+-> Fixed source repository based on suggestions in [http://blog.discountasp.net/using-git-with-visual-studio-2010-an-introduction-2/](http://blog.discountasp.net/using-git-with-visual-studio-2010-an-introduction-2/)

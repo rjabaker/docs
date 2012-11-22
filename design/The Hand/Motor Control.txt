@@ -1,0 +1,18 @@
+## Motor Control
+
+#### Phase 1: Single Motor Control, No Speed Variation
+
+This phase has the following specifications:
+
+- Via the Windows application, allow the user to turn on/off a motor.
+- The user should have the ability to make the motor spin clockwise and anti-clockwise.
+- The motor should have an emergency stop (or e-stop) button/switch that a user can manually press.
+- To make the motor spin clockwise, the user should set pin X on. To make the motor spin anti-clockwise, the user should set pin Y on. If both pin X and Y are on at the same time, the motor should not spin.
+- If the e-stop button/switch is on, regardless of pin X and Y, the motor should not spin.
+
+Sources:
+
+- [http://fritzing.org/projects/dc-motor-control/](http://fritzing.org/projects/dc-motor-control/)
+- [http://itp.nyu.edu/physcomp/Labs/DCMotorControl](http://itp.nyu.edu/physcomp/Labs/DCMotorControl)
+- [http://arduino.cc/playground/Main/DCMotorControl](http://arduino.cc/playground/Main/DCMotorControl)
+- [http://standby-shop.eu/photo/_pdf/L293.pdf?sess_id=a5dc5d224a1a44887ff009d9ed1b9a0c](http://standby-shop.eu/photo/_pdf/L293.pdf?sess_id=a5dc5d224a1a44887ff009d9ed1b9a0c)
