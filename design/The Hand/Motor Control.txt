@@ -16,3 +16,4 @@ Sources:
 - [http://itp.nyu.edu/physcomp/Labs/DCMotorControl](http://itp.nyu.edu/physcomp/Labs/DCMotorControl)
 - [http://arduino.cc/playground/Main/DCMotorControl](http://arduino.cc/playground/Main/DCMotorControl)
 - [http://standby-shop.eu/photo/_pdf/L293.pdf?sess_id=a5dc5d224a1a44887ff009d9ed1b9a0c](http://standby-shop.eu/photo/_pdf/L293.pdf?sess_id=a5dc5d224a1a44887ff009d9ed1b9a0c)
+- [http://www.ti.com/lit/ds/symlink/sn754410.pdf](http://www.ti.com/lit/ds/symlink/sn754410.pdf)

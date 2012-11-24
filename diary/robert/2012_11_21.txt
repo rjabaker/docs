@@ -1,3 +1,5 @@
 ## November 21, 2012
 
--> Found motor schematic.
+- Found motor fritzing schematic.
+- Need to set reply package to return 3 bytes and reconsider what kind of data it returns.
+- Tested controlling a one-direction motor today. Used the digitalWrite command and it worked. Used the analogWrite command, and it also worked, except when I used an intensity less than or equal to 120 (it stopped spinning). The motor I was using was 3V, I think; perhaps the power supply being incorrect caused intensities below a certain threshold not to work. This is strange, though, since varying the intensity actually just varies the pulse width used in the motor (the pulse is on for shorter periods of time when you decrease the intensity, so the motor doesn't spin as fast). I just discovered that analogWrite only works on certain pins, not including pin 8. I think this is the reason why it didn't work. The threshold I measured was 120 out of 255 (120 being the intensity when the motor stopped working). I think the pin was treating the analogWrite as a digitalWrite, because the pin only takes digital inputs, so it took a value approximately halfway between 255 (120/255 ~= 0.5).

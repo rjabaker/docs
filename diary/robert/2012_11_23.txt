@@ -1,0 +1,4 @@
+## November 23, 2012
+
+- Beginning to write set pinMode command.
+- Should repeat the digital output voltage measurements with a different pin than pin 13, since it has an LED attached to it and this might affect the output voltage (which could be higher for the other pins).

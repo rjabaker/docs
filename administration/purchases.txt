@@ -1,5 +1,16 @@
 ## Purchases
 
+#### Garrett
 - Arduino Uno - R3 ($34.95)
 
+#### Robert and Andrew
 - Used Microsoft Kinect Camera ($80.00)
+
+#### Robert
+- Motor Stepper 3V DC ($4.49)
+- Motor DC Miniature 4.5-6 V ($1.80)
+- (2) Quadruple Half-H Drivers 16P-DIP, L293D ($3.50)
+- Wire Solid 22 7 Color Kit 5ft ($4.75)
+- IC Video Sync Separator SOIC-8P ($3.50)
+- CAP LYT RDL Assorted 10uF 100uF ($5.50)
+- Resistor Set Assorted 1/4W 5% CF ($13.95)

@@ -1,0 +1,9 @@
+## Purchase List
+
+- L293NE, L293D (least preferably), or SN754410 (preferably) Quadruple Half-H Driver, which will act as an H-Bridge (Quantity 2, if possible)
+- 1k ohm resistor (Quantity 2 or 3, though only 1 is actually required)
+- 10k ohm resistor (Quantity 2 or 3, though it's not an essential component of the circuit, but it might be safe to have it on hand)
+- A pushbutton or switch (Quantity 1)
+- 9 V battery (Quantity 1)
+- 10u to 100u F capacitor (Quantity 2 or 3, though only 1 is required)
+- DC motor, ranging from 3 to 9 V; the motor must be compatible with the power supply, and the arduino can supply 3.3 V on its own, while the 9 V battery will be sufficient to power; Jenny's motor was named SDC2L, 60UL8619A (Quantity 2, though only 1 is required)

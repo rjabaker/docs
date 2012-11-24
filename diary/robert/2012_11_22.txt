@@ -1,0 +1,5 @@
+## November 22, 2012
+
+- Purchase electrical components today.
+
+- Measured analog intensity output voltage and digital high/low output voltage.
