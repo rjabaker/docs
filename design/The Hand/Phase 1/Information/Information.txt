@@ -1,0 +1,10 @@
+## Information - Hand Phase: 1
+
+#### Design
+
+- The L293D IC was used to control the current passing through the motor terminals. By varying the current's polarity, I was able to control the motor's direction, clockwise or anti-clockwise.
+- I also integrated an E-Stop push button. When this button is pressed, the IC's power source is cut (Vs is grounded). For the time being, this circuit's power source was a digital output pin on the arduino, supply approximately 5V. As a result, the digital output pin can be turned off via the .NET application, also turning off the motor.
+
+#### Next Steps
+
+- Future motors may require a larger power source, so a digital output pin cannot be used in the future. The push-button, which will be called the E-Stop button, will be attached to this external power source; when this button is pressed, or the switch is flicked, the power source will turn off. The digital output pin that was used to stop the motor from the .NET application will be hooked up the the IC's enable pin; this will not be an E-Stop button anymore, but it will still be able to stop the motor.
