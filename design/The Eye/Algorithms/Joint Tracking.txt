@@ -1,0 +1,9 @@
+## Joint Tracking
+
+The joint tracking procedure begins at the Kinect camera level. The camera fires an event when a skeleton image frame is captured. The `SmartKinectSensor` captures this event, populates an array of `Skeleton` objects, and fires its own custom event. The `SkeletonController` captures this event.
+
+The `SkeletonController` executes a collection of `ISkeletonCapturingFunction` objects. The `JointController` implements the `ISkeletonCapturingFunction`; if it was added to the `SkeletonController` before image frame was captured, it will execute.
+
+Upon execution, the `JointController` cycles through all the `Joint` objects in the captured `Skeleton` (if there are multiple `Skeleton` objects in the capturing, only the first one is processed). Within the `JointUtilities` static class, an array of `JointType` items specifies which joints in the `Skeleton` can be tracked. These joints are mined from the captured `Skeleton`. Querying the `JointUtilities` class determines a matching `JointType` array for a specified `JointType` item. The `SkeletonController` uses this `JointType` items to calculate the specified `JointType` item's bend angle. Two vectors are generated from the `JointType` item array retrieved from the JointUtilities class for the specified `JointType`. The angle between these vectors is captured and the specified `JointType` item is packaged in a `MovingJoint` object with all its pertinent metadata. The `SkeletonController` then fires an event containing the `MovingJoint` in its parameters.
+
+The `KinectBodyTracker` in the Skynet project captures this `MovingJoint` event.
